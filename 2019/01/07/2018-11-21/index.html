@@ -1,0 +1,74 @@
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+	
+	<title>2018.11.21</title>
+	<meta name="keywords" content="">
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    
+	   <link href="/css/main.css?v=3" rel="stylesheet" type="text/css">
+    
+        <script src="/js/util.js"></script>
+        <script>
+            if(isMobile()) {
+                loadjscssfile('../css/mobile.css', 'css');
+            } else {
+                loadjscssfile('../css/desktop.css', 'css');
+            }
+        </script> 
+    
+
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+
+    
+
+</head>
+
+<body>
+
+
+<h2 class="title">2018.11.21</h2>
+<!---
+<div style="text-align:center;margin-top: -10px;">
+<div class="article-category">
+发表于2019年1月7日
+
+
+
+
+ </div>
+--->
+
+
+
+<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-5153" target="_blank" rel="noopener">CVE-2009-5153</a><br>In Novell NetWare before 6.5 SP8, a stack buffer overflow in processing of CALLIT RPC calls in the NFS Portmapper daemon in PKERNEL.NLM allowed remote unauthenticated attackers to execute code, because a length field was incorrectly trusted.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1843" target="_blank" rel="noopener">CVE-2018-1843</a><br>The Identity and Access Management (IAM) services (IBM Cloud Private 3.1.0) do not use a secure channel, such as SSL, to exchange information only when accessed internally from within the cluster. It could be possible for an attacker with access to network traffic to sniff packets from the connection and uncover data. IBM X-Force ID: 150903<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19409" target="_blank" rel="noopener">CVE-2018-19409</a><br>An issue was discovered in Artifex Ghostscript before 9.26. LockSafetyParams is not checked correctly if another device is used.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19410" target="_blank" rel="noopener">CVE-2018-19410</a><br>PRTG Network Monitor before 18.2.40.1683 allows remote unauthenticated attackers to create users with read-write privileges (including administrator). A remote unauthenticated user can craft an HTTP request and override attributes of the ‘include’ directive in /public/login.htm and perform a Local File Inclusion attack, by including /api/addusers and executing it. By providing the ‘id’ and ‘users’ parameters, an unauthenticated attacker can create a user with read-write privileges (including administrator).<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19411" target="_blank" rel="noopener">CVE-2018-19411</a><br>PRTG Network Monitor before 18.2.40.1683 allows an authenticated user with a read-only account to create another user with a read-write account (including administrator) via an HTTP request because /api/addusers doesn’t check, or doesn’t properly check, user rights.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19416" target="_blank" rel="noopener">CVE-2018-19416</a><br>An issue was discovered in sysstat 12.1.1. The remap_struct function in sa_common.c has an out-of-bounds read during a memmove call, as demonstrated by sadf.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19417" target="_blank" rel="noopener">CVE-2018-19417</a><br>An issue was discovered in the MQTT server in Contiki-NG before 4.2. The function parse_publish_vhdr() that parses MQTT PUBLISH messages with a variable length header uses memcpy to input data into a fixed size buffer. The allocated buffer can fit only MQTT_MAX_TOPIC_LENGTH (default 64) bytes, and a length check is missing. This could lead to Remote Code Execution via a stack-smashing attack (overwriting the function return address). Contiki-NG does not separate the MQTT server from other servers and the OS modules, so access to all memory regions is possible.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19420" target="_blank" rel="noopener">CVE-2018-19420</a><br>In GetSimpleCMS 3.3.15, admin/upload.php blocks .html uploads but there are several alternative cases in which HTML can be executed, such as a file with no extension or an unrecognized extension (e.g., the test or test.asdf filename), because of admin/upload-uploadify.php, and validate_safe_file in admin/inc/security_functions.php.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19421" target="_blank" rel="noopener">CVE-2018-19421</a><br>In GetSimpleCMS 3.3.15, admin/upload.php blocks .html uploads but Internet Explorer render HTML elements in a .eml file, because of admin/upload-uploadify.php, and validate_safe_file in admin/inc/security_functions.php.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19422" target="_blank" rel="noopener">CVE-2018-19422</a><br>/panel/uploads in Subrion CMS 4.2.1 allows remote attackers to execute arbitrary PHP code via a .pht or .phar file, because the .htaccess file omits these.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19423" target="_blank" rel="noopener">CVE-2018-19423</a><br>Codiad 2.8.4 allows remote authenticated administrators to execute arbitrary code by uploading an executable file.</p>
+
+
+<!--<a href="http://yoursite.com/2019/01/07/2018-11-21/#disqus_thread" class="article-comment-link">Comments</a>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = ''; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
+<div style="display:none">
+<script src="http://s4.cnzz.com/stat.php?id=&web_id=" language="JavaScript"></script>script>
+</div>
+
+
+
+
+
+
+</body>
+</html>

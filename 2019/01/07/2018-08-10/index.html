@@ -1,0 +1,74 @@
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+	
+	<title>2018.08.10</title>
+	<meta name="keywords" content="">
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    
+	   <link href="/css/main.css?v=3" rel="stylesheet" type="text/css">
+    
+        <script src="/js/util.js"></script>
+        <script>
+            if(isMobile()) {
+                loadjscssfile('../css/mobile.css', 'css');
+            } else {
+                loadjscssfile('../css/desktop.css', 'css');
+            }
+        </script> 
+    
+
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+
+    
+
+</head>
+
+<body>
+
+
+<h2 class="title">2018.08.10</h2>
+<!---
+<div style="text-align:center;margin-top: -10px;">
+<div class="article-category">
+发表于2019年1月7日
+
+
+
+
+ </div>
+--->
+
+
+
+<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11048" target="_blank" rel="noopener">CVE-2018-11048</a><br>Dell EMC Data Protection Advisor, versions 6.2, 6,3, 6.4, 6.5 and Dell EMC Integrated Data Protection Appliance (IDPA) versions 2.0, 2.1 contain a XML External Entity (XXE) Injection vulnerability in the REST API. An authenticated remote malicious user could potentially exploit this vulnerability to read certain system files in the server or cause denial of service by supplying specially crafted Document Type Definitions (DTDs) in an XML request.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11063" target="_blank" rel="noopener">CVE-2018-11063</a><br>Dell WMS versions 1.1 and prior are impacted by multiple unquoted service path vulnerabilities. Affected software installs multiple services incorrectly by specifying the paths to the service executables without quotes. This could potentially allow a low-privileged local user to execute arbitrary executables with elevated privileges.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11492" target="_blank" rel="noopener">CVE-2018-11492</a><br>ASUS HG100 devices allow denial of service via an IPv4 packet flood.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-13341" target="_blank" rel="noopener">CVE-2018-13341</a><br>Crestron TSW-X60 all versions prior to 2.001.0037.001 and MC3 all versions prior to 1.502.0047.00, The passwords for special sudo accounts may be calculated using information accessible to those with regular user privileges. Attackers could decipher these passwords, which may allow them to execute hidden API calls and escape the CTP console sandbox environment with elevated privileges.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-13390" target="_blank" rel="noopener">CVE-2018-13390</a><br>Unauthenticated access to cloudtoken daemon on Linux via network from version 0.1.1 before version 0.1.24 allows attackers on the same subnet to gain temporary AWS credentials for the users’ roles.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14028" target="_blank" rel="noopener">CVE-2018-14028</a><br>In WordPress 4.9.7, plugins uploaded via the admin area are not verified as being ZIP files. This allows for PHP files to be uploaded. Once a PHP file is uploaded, the plugin extraction fails, but the PHP file remains in a predictable wp-content/uploads location, allowing for an attacker to then execute the file. This represents a security risk in limited scenarios where an attacker (who does have the required capabilities for plugin uploads) cannot simply place arbitrary PHP code into a valid plugin ZIP file and upload that plugin, because a machine’s wp-content/plugins directory permissions were set up to block all new plugins.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14503" target="_blank" rel="noopener">CVE-2018-14503</a><br>Cross-site scripting (XSS) vulnerability in intervalCheck.jsp in Coremail XT 3.0 allows remote attackers to inject arbitrary web script or HTML via the sid parameter.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-6553" target="_blank" rel="noopener">CVE-2018-6553</a><br>The CUPS AppArmor profile incorrectly confined the dnssd backend due to use of hard links. A local attacker could possibly use this issue to escape confinement. This flaw affects versions prior to 2.2.7-1ubuntu2.1 in Ubuntu 18.04 LTS, prior to 2.2.4-7ubuntu3.1 in Ubuntu 17.10, prior to 2.1.3-4ubuntu0.5 in Ubuntu 16.04 LTS, and prior to 1.7.2-0ubuntu1.10 in Ubuntu 14.04 LTS.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-6556" target="_blank" rel="noopener">CVE-2018-6556</a><br>lxc-user-nic when asked to delete a network interface will unconditionally open a user provided path. This code path may be used by an unprivileged user to check for the existence of a path which they wouldn’t otherwise be able to reach. It may also be used to trigger side effects by causing a (read-only) open of special kernel files (ptmx, proc, sys). Affected releases are LXC: 2.0 versions above and including 2.0.9; 3.0 versions above and including 3.0.0, prior to 3.0.2.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3110" target="_blank" rel="noopener">CVE-2018-3110</a><br>A vulnerability was discovered in the Java VM component of Oracle Database Server. Supported versions that are affected are 11.2.0.4, 12.1.0.2, 12.2.0.1 and 18. Easily exploitable vulnerability allows low privileged attacker having Create Session privilege with network access via Oracle Net to compromise Java VM. While the vulnerability is in Java VM, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java VM. CVSS 3.0 Base Score 9.9 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H).<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3779" target="_blank" rel="noopener">CVE-2018-3779</a><br>active-support ruby gem 5.2.0 could allow a remote attacker to execute arbitrary code on the system, caused by containing a malicious backdoor. An attacker could exploit this vulnerability to execute arbitrary code on the system.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14782" target="_blank" rel="noopener">CVE-2018-14782</a><br>NetComm Wireless G LTE Light Industrial M2M Router (NWL-25) with firmware 2.0.29.11 and prior. The device allows access to configuration files and profiles without authenticating the user.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14783" target="_blank" rel="noopener">CVE-2018-14783</a><br>NetComm Wireless G LTE Light Industrial M2M Router (NWL-25) with firmware 2.0.29.11 and prior. A cross-site request forgery condition can occur, allowing an attacker to change passwords of the device remotely.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14784" target="_blank" rel="noopener">CVE-2018-14784</a><br>NetComm Wireless G LTE Light Industrial M2M Router (NWL-25) with firmware 2.0.29.11 and prior. The device is vulnerable to several cross-site scripting attacks, allowing a remote attacker to run arbitrary code on the device.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14785" target="_blank" rel="noopener">CVE-2018-14785</a><br>NetComm Wireless G LTE Light Industrial M2M Router (NWL-25) with firmware 2.0.29.11 and prior. The directory of the device is listed openly without authentication.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14837" target="_blank" rel="noopener">CVE-2018-14837</a><br>Wolf CMS 0.8.3.1 has XSS in the Snippets tab, as demonstrated by a ?/admin/snippet/edit/1 URI.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15186" target="_blank" rel="noopener">CVE-2018-15186</a><br>PHP Scripts Mall Chartered Accountant : Auditor Website 2.0.1 has CSRF via client/auditor/updprofile.php.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15187" target="_blank" rel="noopener">CVE-2018-15187</a><br>PHP Scripts Mall advanced-real-estate-script 4.0.9 has CSRF via edit-profile.php.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15188" target="_blank" rel="noopener">CVE-2018-15188</a><br>PHP Scripts Mall advanced-real-estate-script 4.0.9 allows remote attackers to cause a denial of service (page structure loss) via crafted JavaScript code in the Name field of a profile.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15189" target="_blank" rel="noopener">CVE-2018-15189</a><br>PHP Scripts Mall advanced-real-estate-script has XSS via the Name field of a profile.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15190" target="_blank" rel="noopener">CVE-2018-15190</a><br>PHP Scripts Mall hotel-booking-script 2.0.4 allows XSS via the First Name, Last Name, or Address field.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15191" target="_blank" rel="noopener">CVE-2018-15191</a><br>PHP Scripts Mall hotel-booking-script 2.0.4 allows remote attackers to cause a denial of service via crafted JavaScript code in the First Name, Last Name, or Address field.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10622" target="_blank" rel="noopener">CVE-2018-10622</a><br>A vulnerability was discovered in all versions of Medtronic MyCareLink 24950 and 24952 Patient Monitor. The affected products use per-product credentials that are stored in a recoverable format. An attacker can use these credentials for network authentication and encryption of local data at rest.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10626" target="_blank" rel="noopener">CVE-2018-10626</a><br>A vulnerability was discovered in all versions of Medtronic MyCareLink 24950 and 24952 Patient Monitor. The affected product’s update service does not sufficiently verify the authenticity of the data uploaded. An attacker who obtains per-product credentials from the monitor and paired implantable cardiac device information can potentially upload invalid data to the Medtronic CareLink network.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10630" target="_blank" rel="noopener">CVE-2018-10630</a><br>For Crestron TSW-X60 version prior to 2.001.0037.001 and MC3 version prior to 1.502.0047.001, The devices are shipped with authentication disabled, and there is no indication to users that they need to take steps to enable it. When compromised, the access to the CTP console is left open.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10769" target="_blank" rel="noopener">CVE-2018-10769</a><br>The transferProxy and approveProxy functions of a smart contract implementation for SmartMesh (SMT), an Ethereum ERC20 token, allow attackers to accomplish an unauthorized transfer of digital assets because replay attacks can occur with the same-named functions (with the same signatures) in other tokens: First (FST), GG Token (GG), M2C Mesh Network (MTC), M2C Mesh Network (mesh), and UG Token (UGT).</p>
+
+
+<!--<a href="http://yoursite.com/2019/01/07/2018-08-10/#disqus_thread" class="article-comment-link">Comments</a>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = ''; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
+<div style="display:none">
+<script src="http://s4.cnzz.com/stat.php?id=&web_id=" language="JavaScript"></script>script>
+</div>
+
+
+
+
+
+
+</body>
+</html>

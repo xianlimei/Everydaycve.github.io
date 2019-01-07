@@ -1,0 +1,74 @@
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+	
+	<title>2018.03.07</title>
+	<meta name="keywords" content="">
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    
+	   <link href="/css/main.css?v=3" rel="stylesheet" type="text/css">
+    
+        <script src="/js/util.js"></script>
+        <script>
+            if(isMobile()) {
+                loadjscssfile('../css/mobile.css', 'css');
+            } else {
+                loadjscssfile('../css/desktop.css', 'css');
+            }
+        </script> 
+    
+
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+
+    
+
+</head>
+
+<body>
+
+
+<h2 class="title">2018.03.07</h2>
+<!---
+<div style="text-align:center;margin-top: -10px;">
+<div class="article-category">
+发表于2019年1月7日
+
+
+
+
+ </div>
+--->
+
+
+
+<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7204" target="_blank" rel="noopener">CVE-2018-7204</a><br>inc/logger.php in the Giribaz File Manager plugin before 5.0.2 for WordPress logged activity related to the plugin in /wp-content/uploads/file-manager/log.txt. If a user edits the wp-config.php file using this plugin, the wp-config.php contents get added to log.txt, which is not protected and contains database credentials, salts, etc. These files have been indexed by Google and a simple dork will find affected sites.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18221" target="_blank" rel="noopener">CVE-2017-18221</a><br>The __munlock_pagevec function in mm/mlock.c in the Linux kernel before 4.11.4 allows local users to cause a denial of service (NR_MLOCK accounting corruption) via crafted use of mlockall and munlockall system calls.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8780" target="_blank" rel="noopener">CVE-2014-8780</a><br>Cross-site scripting (XSS) vulnerability in Jease 2.11 allows remote authenticated users to inject arbitrary web script or HTML via a content section note.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1054" target="_blank" rel="noopener">CVE-2018-1054</a><br>An out-of-bounds memory read flaw was found in the way 389-ds-base handled certain LDAP search filters, affecting all versions including 1.4.x. A remote, unauthenticated attacker could potentially use this flaw to make ns-slapd crash via a specially crafted LDAP request, thus resulting in denial of service.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7675" target="_blank" rel="noopener">CVE-2018-7675</a><br>In NetIQ Sentinel before 8.1.x, a Sentinel user is logged into the Sentinel Web Interface. After performing some tasks within Sentinel the user does not log out but does go idle for a period of time. This in turn causes the interface to timeout so that it requires the user to re-authenticate. If another user is passing by and decides to login, their credentials are accepted. While The user does not inherit any of the other users privileges, they are able to view the previous screen. In this case it is possible that the user can see another users events or configuration information for whatever view is currently showing.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5452" target="_blank" rel="noopener">CVE-2018-5452</a><br>A Stack-based Buffer Overflow issue was discovered in Emerson Process Management ControlWave Micro Process Automation Controller: ControlWave Micro [ProConOS v.4.01.280] firmware: CWM v.05.78.00 and prior. A stack-based buffer overflow vulnerability caused by sending crafted packets on Port 20547 could force the PLC to change its state into halt mode.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-12174" target="_blank" rel="noopener">CVE-2017-12174</a><br>It was found that when Artemis and HornetQ before 2.4.0 are configured with UDP discovery and JGroups discovery a huge byte array is created when receiving an unexpected multicast message. This may result in a heap memory exhaustion, full GC, or OutOfMemoryError.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000116" target="_blank" rel="noopener">CVE-2018-1000116</a><br>NET-SNMP version 5.7.2 contains a heap corruption vulnerability in the UDP protocol handler that can result in command execution.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000117" target="_blank" rel="noopener">CVE-2018-1000117</a><br>Python Software Foundation CPython version From 3.2 until 3.6.4 on Windows contains a Buffer Overflow vulnerability in os.symlink() function on Windows that can result in Arbitrary code execution, likely escalation of privilege. This attack appears to be exploitable via a python script that creates a symlink with an attacker controlled name or location. This vulnerability appears to have been fixed in 3.7.0 and 3.6.5.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000118" target="_blank" rel="noopener">CVE-2018-1000118</a><br>Github Electron version Electron 1.8.2-beta.4 and earlier contains a Command Injection vulnerability in Protocol Handler that can result in command execute. This attack appear to be exploitable via the victim opening an electron protocol handler in their browser. This vulnerability appears to have been fixed in Electron 1.8.2-beta.5. This issue is due to an incomplete fix for CVE-2018-1000006, specifically the black list used was not case insensitive allowing an attacker to potentially bypass it.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000119" target="_blank" rel="noopener">CVE-2018-1000119</a><br>Sinatra rack-protection versions 1.5.4 and 2.0.0.rc3 and earlier contains a timing attack vulnerability in the CSRF token checking that can result in signatures can be exposed. This attack appear to be exploitable via network connectivity to the ruby application. This vulnerability appears to have been fixed in 1.5.5 and 2.0.0.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7720" target="_blank" rel="noopener">CVE-2018-7720</a><br>A cross-site request forgery (CSRF) vulnerability exists in Western Bridge Cobub Razor 0.7.2 via /index.php?/user/createNewUser/, resulting in account creation.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7721" target="_blank" rel="noopener">CVE-2018-7721</a><br>Cross Site Scripting (XSS) exists in MetInfo 6.0.0 via /feedback/index.php because app/system/feedback/web/feedback.class.php mishandles input data.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7740" target="_blank" rel="noopener">CVE-2018-7740</a><br>The resv_map_release function in mm/hugetlb.c in the Linux kernel through 4.15.7 allows local users to cause a denial of service (BUG) via a crafted application that makes mmap system calls and has a large pgoff argument to the remap_file_pages system call.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7741" target="_blank" rel="noopener">CVE-2018-7741</a><br>Eramba e1.0.6.033 has Reflected XSS in the Date Filter via the created parameter to the /crons URI.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7745" target="_blank" rel="noopener">CVE-2018-7745</a><br>An issue was discovered in Western Bridge Cobub Razor 0.7.2. Authentication is not required for /index.php?/install/installation/createuserinfo requests, resulting in account creation.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7746" target="_blank" rel="noopener">CVE-2018-7746</a><br>An issue was discovered in Western Bridge Cobub Razor 0.7.2. Authentication is not required for /index.php?/manage/channel/modifychannel. For example, with a crafted channel name, stored XSS is triggered during a later /index.php?/manage/channel request by an admin.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7752" target="_blank" rel="noopener">CVE-2018-7752</a><br>GPAC through 0.7.1 has a Buffer Overflow in the gf_media_avc_read_sps function in media_tools/av_parsers.c, a different vulnerability than CVE-2018-1000100.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7753" target="_blank" rel="noopener">CVE-2018-7753</a><br>An issue was discovered in Bleach 2.1.x before 2.1.3. Attributes that have URI values weren’t properly sanitized if the values contained character entities. Using character entities, it was possible to construct a URI value with a scheme that was not allowed that would slide through unsanitized.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5044" target="_blank" rel="noopener">CVE-2014-5044</a><br>Multiple integer overflows in libgfortran might allow remote attackers to execute arbitrary code or cause a denial of service (Fortran application crash) via vectors related to array allocation.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15367" target="_blank" rel="noopener">CVE-2017-15367</a><br>Bacula-web before 8.0.0-rc2 is affected by multiple SQL Injection vulnerabilities that could allow an attacker to access the Bacula database and, depending on configuration, escalate privileges on the server.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7473" target="_blank" rel="noopener">CVE-2018-7473</a><br>Open redirect vulnerability in the SO Connect SO WIFI hotspot web interface, prior to version 140, allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via a URL.</p>
+
+
+<!--<a href="http://yoursite.com/2019/01/07/2018-03-07/#disqus_thread" class="article-comment-link">Comments</a>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = ''; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
+<div style="display:none">
+<script src="http://s4.cnzz.com/stat.php?id=&web_id=" language="JavaScript"></script>script>
+</div>
+
+
+
+
+
+
+</body>
+</html>

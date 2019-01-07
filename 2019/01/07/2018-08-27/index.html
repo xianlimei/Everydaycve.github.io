@@ -1,0 +1,74 @@
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+	
+	<title>2018.08.27</title>
+	<meta name="keywords" content="">
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    
+	   <link href="/css/main.css?v=3" rel="stylesheet" type="text/css">
+    
+        <script src="/js/util.js"></script>
+        <script>
+            if(isMobile()) {
+                loadjscssfile('../css/mobile.css', 'css');
+            } else {
+                loadjscssfile('../css/desktop.css', 'css');
+            }
+        </script> 
+    
+
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+
+    
+
+</head>
+
+<body>
+
+
+<h2 class="title">2018.08.27</h2>
+<!---
+<div style="text-align:center;margin-top: -10px;">
+<div class="article-category">
+发表于2019年1月7日
+
+
+
+
+ </div>
+--->
+
+
+
+<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10938" target="_blank" rel="noopener">CVE-2018-10938</a><br>A flaw was found in the Linux kernel present since v4.0-rc1 and through v4.13-rc4. A crafted network packet sent remotely by an attacker may force the kernel to enter an infinite loop in the cipso_v4_optptr() function in net/ipv4/cipso_ipv4.c leading to a denial-of-service. A certain non-default configuration of LSM (Linux Security Module) and NetLabel should be set up on a system before an attacker could leverage this flaw.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15139" target="_blank" rel="noopener">CVE-2017-15139</a><br>A vulnerability was found in openstack-cinder releases up to and including Queens, allowing newly created volumes in certain storage volume configurations to contain previous data. It specifically affects ScaleIO volumes using thin volumes and zero padding. This could lead to leakage of sensitive information between tenants.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3893" target="_blank" rel="noopener">CVE-2018-3893</a><br>An exploitable buffer overflow vulnerability exists in the /cameras/XXXX/clips handler of video-core’s HTTP server of Samsung SmartThings Hub STH-ETH-250 - Firmware version 0.20.17. The video-core process incorrectly extracts fields from a user-controlled JSON payload, leading to a buffer overflow on the stack. An attacker can send an HTTP request to trigger this vulnerability.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3904" target="_blank" rel="noopener">CVE-2018-3904</a><br>An exploitable buffer overflow vulnerability exists in the camera ‘update’ feature of video-core’s HTTP server of Samsung SmartThings Hub STH-ETH-250 - Firmware version 0.20.17. The video-core process incorrectly extracts fields from a user-controlled JSON payload, leading to a buffer overflow on the stack. An attacker can send an HTTP request to trigger this vulnerability.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3918" target="_blank" rel="noopener">CVE-2018-3918</a><br>An exploitable vulnerability exists in the remote servers of Samsung SmartThings Hub STH-ETH-250 - Firmware version 0.20.17. The hubCore process listens on port 39500 and relays any unauthenticated messages to SmartThings’ remote servers, which incorrectly handle camera IDs for the ‘sync’ operation, leading to arbitrary deletion of cameras. An attacker can send an HTTP request to trigger this vulnerability.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3927" target="_blank" rel="noopener">CVE-2018-3927</a><br>An exploitable information disclosure vulnerability exists in the crash handler of the hubCore binary of the Samsung SmartThings Hub STH-ETH-250 - Firmware version 0.20.17. When hubCore crashes, Google Breakpad is used to record minidumps, which are sent over an insecure HTTPS connection to the backtrace.io service, leading to the exposure of sensitive data. An attacker can impersonate the remote backtrace.io server in order to trigger this vulnerability.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-0715" target="_blank" rel="noopener">CVE-2018-0715</a><br>Cross-site scripting vulnerability in QNAP Photo Station versions 5.7.0 and earlier could allow remote attackers to inject Javascript code in the compromised application.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15894" target="_blank" rel="noopener">CVE-2018-15894</a><br>A SQL injection was discovered in /coreframe/app/admin/pay/admin/index.php in WUZHI CMS 4.1.0 via the index.php?m=pay&amp;f=index&amp;v=listing keyValue parameter.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15895" target="_blank" rel="noopener">CVE-2018-15895</a><br>An SSRF vulnerability was discovered in idreamsoft iCMS 7.0.11 because the remote function in app/spider/spider_tools.class.php does not block DNS hostnames associated with private and reserved IP addresses, as demonstrated by 127.0.0.1 in an A record. NOTE: this vulnerability exists because of an incomplete fix for CVE-2018-14858.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15899" target="_blank" rel="noopener">CVE-2018-15899</a><br>An issue was discovered in MiniCMS 1.10. There is a post.php?date= XSS vulnerability.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15904" target="_blank" rel="noopener">CVE-2018-15904</a><br>A10 ACOS Web Application Firewall (WAF) 2.7.1 and 2.7.2 before 2.7.2-P12, 4.1.0 before 4.1.0-P11, 4.1.1 before 4.1.1-P8, and 4.1.2 before 4.1.2-P4 mishandles the configured rules for blocking SQL injection attacks, aka A10-2017-0008.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15908" target="_blank" rel="noopener">CVE-2018-15908</a><br>In Artifex Ghostscript 9.23 before 2018-08-23, attackers are able to supply malicious PostScript files to bypass .tempfile restrictions and write files.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15909" target="_blank" rel="noopener">CVE-2018-15909</a><br>In Artifex Ghostscript 9.23 before 2018-08-24, a type confusion using the .shfill operator could be used by attackers able to supply crafted PostScript files to crash the interpreter or potentially execute code.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15910" target="_blank" rel="noopener">CVE-2018-15910</a><br>In Artifex Ghostscript before 9.24, attackers able to supply crafted PostScript files could use a type confusion in the LockDistillerParams parameter to crash the interpreter or execute code.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15810" target="_blank" rel="noopener">CVE-2018-15810</a><br>Visiology Flipbox Software Suite before 2.7.0 allows directory traversal via %5c%2e%2e%2f because it does not sanitize filename parameters.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-10074" target="_blank" rel="noopener">CVE-2014-10074</a><br>Umbraco before 7.2.0 has a remote PHP code execution vulnerability because Umbraco.Web.UI/config/umbracoSettings.Release.config does not block the upload of .php files.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9263" target="_blank" rel="noopener">CVE-2015-9263</a><br>An issue was discovered in post2file.php in Up.Time Monitoring Station 7.5.0 (build 16) and 7.4.0 (build 13). It allows an attacker to upload an arbitrary file, such as a .php file that can execute arbitrary OS commands.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9264" target="_blank" rel="noopener">CVE-2015-9264</a><br>Lansweeper 4.x through 6.x before 6.0.0.48 allows attackers to execute arbitrary code on the administrator’s workstation via a crafted Windows service.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15694" target="_blank" rel="noopener">CVE-2018-15694</a><br>ASUSTOR Data Master 3.1.5 and below allows authenticated remote non-administrative users to upload files to arbitrary locations due to a path traversal vulnerability. This could lead to code execution if the “Web Server” feature is enabled.</p>
+
+
+<!--<a href="http://yoursite.com/2019/01/07/2018-08-27/#disqus_thread" class="article-comment-link">Comments</a>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = ''; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
+<div style="display:none">
+<script src="http://s4.cnzz.com/stat.php?id=&web_id=" language="JavaScript"></script>script>
+</div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+	
+	<title>2018.08.21</title>
+	<meta name="keywords" content="">
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    
+	   <link href="/css/main.css?v=3" rel="stylesheet" type="text/css">
+    
+        <script src="/js/util.js"></script>
+        <script>
+            if(isMobile()) {
+                loadjscssfile('../css/mobile.css', 'css');
+            } else {
+                loadjscssfile('../css/desktop.css', 'css');
+            }
+        </script> 
+    
+
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+
+    
+
+</head>
+
+<body>
+
+
+<h2 class="title">2018.08.21</h2>
+<!---
+<div style="text-align:center;margin-top: -10px;">
+<div class="article-category">
+发表于2019年1月7日
+
+
+
+
+ </div>
+--->
+
+
+
+<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10902" target="_blank" rel="noopener">CVE-2018-10902</a><br>It was found that the raw midi kernel driver does not protect against concurrent access which leads to a double realloc (double free) in snd_rawmidi_input_params() and snd_rawmidi_output_status() which are part of snd_rawmidi_ioctl() handler in rawmidi.c file. A malicious local attacker could possibly use this for privilege escalation.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10932" target="_blank" rel="noopener">CVE-2018-10932</a><br>lldptool version 1.0.1 and older can print a raw, unsanitized attacker controlled buffer when mngAddr information is displayed. This may allow an attacker to inject shell control characters into the buffer and impact the behavior of the terminal.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-12115" target="_blank" rel="noopener">CVE-2018-12115</a><br>In all versions of Node.js prior to 6.14.4, 8.11.4 and 10.9.0 when used with UCS-2 encoding (recognized by Node.js under the names <code>&#39;ucs2&#39;</code>, <code>&#39;ucs-2&#39;</code>, <code>&#39;utf16le&#39;</code> and <code>&#39;utf-16le&#39;</code>), <code>Buffer#write()</code> can be abused to write outside of the bounds of a single <code>Buffer</code>. Writes that start from the second-to-last position of a buffer cause a miscalculation of the maximum length of the input bytes to be written.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-6557" target="_blank" rel="noopener">CVE-2018-6557</a><br>The MOTD update script in the base-files package in Ubuntu 18.04 LTS before 10.1ubuntu2.2, and Ubuntu 18.10 before 10.1ubuntu6 incorrectly handled temporary files. A local attacker could use this issue to cause a denial of service, or possibly escalate privileges if kernel symlink restrictions were disabled.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-6692" target="_blank" rel="noopener">CVE-2018-6692</a><br>Stack-based Buffer Overflow vulnerability in libUPnPHndlr.so in Belkin Wemo Insight Smart Plug allows remote attackers to bypass local security protection via a crafted HTTP post packet.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7166" target="_blank" rel="noopener">CVE-2018-7166</a><br>In all versions of Node.js 10 prior to 10.9.0, an argument processing flaw can cause <code>Buffer.alloc()</code> to return uninitialized memory. This method is intended to be safe and only return initialized, or cleared, memory. The third argument specifying <code>encoding</code> can be passed as a number, this is misinterpreted by <code>Buffer&#39;s</code> internal “fill” method as the <code>start</code> to a fill operation. This flaw may be abused where <code>Buffer.alloc()</code> arguments are derived from user input to return uncleared memory blocks that may contain sensitive information.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17305" target="_blank" rel="noopener">CVE-2017-17305</a><br>Some Huawei Firewall products USG2205BSR V300R001C10SPC600; USG2220BSR V300R001C00; USG5120BSR V300R001C00; USG5150BSR V300R001C00 have a Bleichenbacher Oracle vulnerability in the IPSEC IKEv1 implementations. Remote attackers can decrypt IPSEC tunnel ciphertext data by leveraging a Bleichenbacher RSA padding oracle. Cause a Bleichenbacher oracle attack. Successful exploit this vulnerability can impact IPSec tunnel security.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17311" target="_blank" rel="noopener">CVE-2017-17311</a><br>Some Huawei Firewall products USG2205BSR V300R001C10SPC600; USG2220BSR V300R001C00; USG5120BSR V300R001C00; USG5150BSR V300R001C00 have a DoS vulnerability in the IPSEC IKEv1 implementations of Huawei Firewall products. Due to improper handling of the malformed messages, an attacker may sent crafted packets to the affected device to exploit these vulnerabilities. Successful exploit the vulnerability could lead to device deny of service.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17312" target="_blank" rel="noopener">CVE-2017-17312</a><br>Some Huawei Firewall products USG2205BSR V300R001C10SPC600; USG2220BSR V300R001C00; USG5120BSR V300R001C00; USG5150BSR V300R001C00 have a DoS vulnerability in the IPSEC IKEv1 implementations of Huawei Firewall products. Due to improper handling of the malformed messages, an attacker may sent crafted packets to the affected device to exploit these vulnerabilities. Successful exploit the vulnerability could lead to device deny of service.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14793" target="_blank" rel="noopener">CVE-2018-14793</a><br>DeltaV Versions 11.3.1, 12.3.1, 13.3.0, 13.3.1, and R5 is vulnerable to a buffer overflow exploit through an open communication port to allow arbitrary code execution.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14795" target="_blank" rel="noopener">CVE-2018-14795</a><br>DeltaV Versions 11.3.1, 12.3.1, 13.3.0, 13.3.1, and R5 is vulnerable due to improper path validation which may allow an attacker to replace executable files.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15481" target="_blank" rel="noopener">CVE-2018-15481</a><br>Improper input sanitization within the restricted administration shell on UCOPIA Wireless Appliance devices using firmware version 5.1.x before 5.1.13 allows authenticated remote attackers to escape the shell and escalate their privileges by adding a LocalCommand to the SSH configuration file in the user home folder.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15533" target="_blank" rel="noopener">CVE-2018-15533</a><br>A reflected cross-site scripting vulnerability exists in Geutebrueck re_porter 16 before 7.8.974.20 by appending a query string to /modifychannel/exec or /images/*.png on TCP port 12005.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15534" target="_blank" rel="noopener">CVE-2018-15534</a><br>Geutebrueck re_porter 16 before 7.8.974.20 has a possibility of unauthenticated access to sensitive information including usernames and hashes via a direct request for /statistics/gscsetup.xml on TCP port 12003.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15607" target="_blank" rel="noopener">CVE-2018-15607</a><br>In ImageMagick 7.0.8-11 Q16, a tiny input file 0x50 0x36 0x36 0x36 0x36 0x4c 0x36 0x38 0x36 0x36 0x36 0x36 0x36 0x36 0x1f 0x35 0x50 0x00 can result in a hang of several minutes during which CPU and memory resources are consumed until ultimately an attempted large memory allocation fails. Remote attackers could leverage this vulnerability to cause a denial of service via a crafted file.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15660" target="_blank" rel="noopener">CVE-2018-15660</a><br><strong> DISPUTED </strong> An issue was discovered in the Ola Money (aka com.olacabs.olamoney) application 1.9.0 for Android. If an attacker controls an application with accessibility permissions, then the attacker can read certain Ola Money data such as a credit card number, expiration date, bank account number, and transaction history. NOTE: the vendor does not agree that this is a security issue requiring a fix.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15661" target="_blank" rel="noopener">CVE-2018-15661</a><br><strong> DISPUTED </strong> An issue was discovered in the Ola Money (aka com.olacabs.olamoney) application 1.9.0 for Android. If an attacker controls an application with accessibility permissions and the ability to read SMS messages, then the Forgot Password screen can be used to bypass authentication. NOTE: the vendor does not agree that this is a security issue requiring a fix.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15667" target="_blank" rel="noopener">CVE-2018-15667</a><br>An issue was discovered in Bloop Airmail 3 3.5.9 for macOS. It registers and uses the airmail:// URL scheme. The “send” command in the URL scheme allows an external application to send arbitrary emails from an active account without authentication. The handler has no restriction on who can use its functionality. The handler can be invoked using any method that invokes the URL handler such as a hyperlink in an email. The user is not prompted when the handler processes the “send” command, thus leading to automatic transmission of an attacker crafted email from the target account.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15668" target="_blank" rel="noopener">CVE-2018-15668</a><br>An issue was discovered in Bloop Airmail 3 3.5.9 for macOS. The “send” command in the airmail:// URL scheme allows an external application to send arbitrary emails from an active account. URL parameters for the “send” command with the “attachment_” prefix designate attachment parameters. If the value of an attachment parameter corresponds to an accessible file path, the file is attached to the outbound message. In addition, relative file paths are acceptable attachment parameter values. The handler can be invoked using any method that invokes the URL handler such as a hyperlink in an email. The user is not prompted when the handler processes the “send” command, thus leading to automatic transmission of an email with designated attachments from the target account to a target address.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15669" target="_blank" rel="noopener">CVE-2018-15669</a><br>An issue was discovered in Bloop Airmail 3 3.5.9 for macOS. Its primary WebView instance implements “webView:decidePolicyForNavigationAction:request:frame:decisionListener:” such that requests from HTMLIFrameElements are blacklisted. However, other sub-classes of HTMLFrameOwnerElements are not forbidden by the policy. An attacker may abuse HTML plug-in elements within an email to trigger frame navigation requests that bypass this filter.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15670" target="_blank" rel="noopener">CVE-2018-15670</a><br>An issue was discovered in Bloop Airmail 3 3.5.9 for macOS. Its primary WebView instance implements “webView:decidePolicyForNavigationAction:request:frame:decisionListener:” such that OpenURL is the default URL handler. A navigation request is processed by the default URL handler only if the currentEvent is NX_LMOUSEUP or NX_OMOUSEUP. An attacker may abuse HTML elements with an EventHandler for a chance to validate navigation requests for URLs that are processed during the NX_LMOUSEUP event triggered by clicking an email.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15671" target="_blank" rel="noopener">CVE-2018-15671</a><br>An issue was discovered in the HDF HDF5 1.10.2 library. Excessive stack consumption has been detected in the function H5P__get_cb() in H5Pint.c during an attempted parse of a crafted HDF file. This results in denial of service.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15672" target="_blank" rel="noopener">CVE-2018-15672</a><br>An issue was discovered in the HDF HDF5 1.10.2 library. A SIGFPE is raised in the function H5D__chunk_init() of H5Dchunk.c during an attempted parse of a crafted HDF file, because of incorrect protection against division by zero.</p>
+
+
+<!--<a href="http://yoursite.com/2019/01/07/2018-08-21/#disqus_thread" class="article-comment-link">Comments</a>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = ''; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
+<div style="display:none">
+<script src="http://s4.cnzz.com/stat.php?id=&web_id=" language="JavaScript"></script>script>
+</div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+	
+	<title>2018.08.31</title>
+	<meta name="keywords" content="">
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    
+	   <link href="/css/main.css?v=3" rel="stylesheet" type="text/css">
+    
+        <script src="/js/util.js"></script>
+        <script>
+            if(isMobile()) {
+                loadjscssfile('../css/mobile.css', 'css');
+            } else {
+                loadjscssfile('../css/desktop.css', 'css');
+            }
+        </script> 
+    
+
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+
+    
+
+</head>
+
+<body>
+
+
+<h2 class="title">2018.08.31</h2>
+<!---
+<div style="text-align:center;margin-top: -10px;">
+<div class="article-category">
+发表于2019年1月7日
+
+
+
+
+ </div>
+--->
+
+
+
+<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11054" target="_blank" rel="noopener">CVE-2018-11054</a><br>RSA BSAFE Micro Edition Suite, version 4.1.6, contains an integer overflow vulnerability. A remote attacker could use maliciously constructed ASN.1 data to potentially cause a Denial Of Service.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11055" target="_blank" rel="noopener">CVE-2018-11055</a><br>RSA BSAFE Micro Edition Suite, versions prior to 4.0.11 (in 4.0.x) and prior to 4.1.6.1 (in 4.1.x), contains an Improper Clearing of Heap Memory Before Release (‘Heap Inspection’) vulnerability. Decoded PKCS #12 data in heap memory is not zeroized by MES before releasing the memory internally and a malicious local user could gain access to the unauthorized data by doing heap inspection.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11056" target="_blank" rel="noopener">CVE-2018-11056</a><br>RSA BSAFE Micro Edition Suite, prior to 4.1.6.1 (in 4.1.x), and RSA BSAFE Crypto-C Micro Edition versions prior to 4.0.5.3 (in 4.0.x) contain an Uncontrolled Resource Consumption (‘Resource Exhaustion’) vulnerability when parsing ASN.1 data. A remote attacker could use maliciously constructed ASN.1 data that would exhaust the stack, potentially causing a Denial Of Service.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11057" target="_blank" rel="noopener">CVE-2018-11057</a><br>RSA BSAFE Micro Edition Suite, versions prior to 4.0.11 (in 4.0.x) and prior to 4.1.6.1 (in 4.1.x) contains a Covert Timing Channel vulnerability during RSA decryption, also known as a Bleichenbacher attack on RSA decryption. A remote attacker may be able to recover a RSA key.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15157" target="_blank" rel="noopener">CVE-2018-15157</a><br><strong> DISPUTED </strong> The libfsclfs_block_read function in libfsclfs_block.c in libfsclfs before 2018-07-25 allows remote attackers to cause a heap-based buffer over-read via a crafted clfs file. NOTE: the vendor has disputed this as described in the GitHub issue comments.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15158" target="_blank" rel="noopener">CVE-2018-15158</a><br><strong> DISPUTED </strong> The libesedb_page_read_values function in libesedb_page.c in libesedb through 2018-04-01 allows remote attackers to cause a heap-based buffer over-read via a crafted esedb file. NOTE: the vendor has disputed this as described in the GitHub issue comments.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15159" target="_blank" rel="noopener">CVE-2018-15159</a><br><strong> DISPUTED </strong> The libesedb_page_read_tags function in libesedb_page.c in libesedb through 2018-04-01 allows remote attackers to cause a heap-based buffer over-read via a crafted esedb file. NOTE: the vendor has disputed this as described in the GitHub issue comments.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15160" target="_blank" rel="noopener">CVE-2018-15160</a><br><strong> DISPUTED </strong> The libesedb_catalog_definition_read function in libesedb_catalog_definition.c in libesedb through 2018-04-01 allows remote attackers to cause a heap-based buffer over-read via a crafted esedb file. NOTE: the vendor has disputed this as described in the GitHub issue comments.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15161" target="_blank" rel="noopener">CVE-2018-15161</a><br><strong> DISPUTED </strong> The libesedb_key_append_data function in libesedb_key.c in libesedb through 2018-04-01 allows remote attackers to cause a heap-based buffer over-read via a crafted esedb file. NOTE: the vendor has disputed this as described in the GitHub issue comments.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16275" target="_blank" rel="noopener">CVE-2018-16275</a><br>OPSWAT MetaDefender before v4.11.2 allows CSV injection.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16276" target="_blank" rel="noopener">CVE-2018-16276</a><br>An issue was discovered in yurex_read in drivers/usb/misc/yurex.c in the Linux kernel before 4.17.7. Local attackers could use user access read/writes with incorrect bounds checking in the yurex USB driver to crash the kernel or potentially escalate privileges.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16278" target="_blank" rel="noopener">CVE-2018-16278</a><br>phpkaiyuancms PhpOpenSourceCMS (POSCMS) V3.2.0 allows an unauthenticated user to execute arbitrary SQL commands via the diy/module/member/controllers/Api.php ajax_save_draft function with the dir parameter.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16298" target="_blank" rel="noopener">CVE-2018-16298</a><br>An issue was discovered in MiniCMS 1.10. There is an mc-admin/post.php?tag= XSS vulnerability for a state=delete, state=draft, or state=publish request.</p>
+
+
+<!--<a href="http://yoursite.com/2019/01/07/2018-08-31/#disqus_thread" class="article-comment-link">Comments</a>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = ''; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
+<div style="display:none">
+<script src="http://s4.cnzz.com/stat.php?id=&web_id=" language="JavaScript"></script>script>
+</div>
+
+
+
+
+
+
+</body>
+</html>

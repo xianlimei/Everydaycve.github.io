@@ -1,0 +1,74 @@
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+	
+	<title>2018.12.14</title>
+	<meta name="keywords" content="">
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    
+	   <link href="/css/main.css?v=3" rel="stylesheet" type="text/css">
+    
+        <script src="/js/util.js"></script>
+        <script>
+            if(isMobile()) {
+                loadjscssfile('../css/mobile.css', 'css');
+            } else {
+                loadjscssfile('../css/desktop.css', 'css');
+            }
+        </script> 
+    
+
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+
+    
+
+</head>
+
+<body>
+
+
+<h2 class="title">2018.12.14</h2>
+<!---
+<div style="text-align:center;margin-top: -10px;">
+<div class="article-category">
+发表于2019年1月7日
+
+
+
+
+ </div>
+--->
+
+
+
+<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1848" target="_blank" rel="noopener">CVE-2018-1848</a><br>IBM Business Automation Workflow 18.0.0.0 and 18.0.0.1 is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 150947.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1977" target="_blank" rel="noopener">CVE-2018-1977</a><br>IBM DB2 for Linux, UNIX and Windows 11.1 (includes DB2 Connect Server) contains a denial of service vulnerability. A remote, authenticated DB2 user could exploit this vulnerability by issuing a specially-crafted SELECT statement with TRUNCATE function. IBM X-Force ID: 154032.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16873" target="_blank" rel="noopener">CVE-2018-16873</a><br>In Go before 1.10.6 and 1.11.x before 1.11.3, the “go get” command is vulnerable to remote code execution when executed with the -u flag and the import path of a malicious Go package, or a package that imports it directly or indirectly. Specifically, it is only vulnerable in GOPATH mode, but not in module mode (the distinction is documented at <a href="https://golang.org/cmd/go/#hdr-Module_aware_go_get)" target="_blank" rel="noopener">https://golang.org/cmd/go/#hdr-Module_aware_go_get)</a>. Using custom domains, it’s possible to arrange things so that a Git repository is cloned to a folder named “.git” by using a vanity import path that ends with “/.git”. If the Git repository root contains a “HEAD” file, a “config” file, an “objects” directory, a “refs” directory, with some work to ensure the proper ordering of operations, “go get -u” can be tricked into considering the parent directory as a repository root, and running Git commands on it. That will use the “config” file in the original Git repository root for its configuration, and if that config file contains malicious commands, they will execute on the system running “go get -u”.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16874" target="_blank" rel="noopener">CVE-2018-16874</a><br>In Go before 1.10.6 and 1.11.x before 1.11.3, the “go get” command is vulnerable to directory traversal when executed with the import path of a malicious Go package which contains curly braces (both ‘{‘ and ‘}’ characters). Specifically, it is only vulnerable in GOPATH mode, but not in module mode (the distinction is documented at <a href="https://golang.org/cmd/go/#hdr-Module_aware_go_get)" target="_blank" rel="noopener">https://golang.org/cmd/go/#hdr-Module_aware_go_get)</a>. The attacker can cause an arbitrary filesystem write, which can lead to code execution.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18006" target="_blank" rel="noopener">CVE-2018-18006</a><br>Hardcoded credentials in the Ricoh myPrint application 2.9.2.4 for Windows and 2.2.7 for Android give access to any externally disclosed myPrint WSDL API, as demonstrated by discovering API secrets of related Google cloud printers, encrypted passwords of mail servers, and names of printed files.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18984" target="_blank" rel="noopener">CVE-2018-18984</a><br>Medtronic CareLink 2090 Programmer CareLink 9790 Programmer 29901 Encore Programmer, all versions, The affected products do not encrypt or do not sufficiently encrypt the following sensitive information while at rest PII and PHI.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19003" target="_blank" rel="noopener">CVE-2018-19003</a><br>GE Mark VIe, EX2100e, EX2100e_Reg, and LS2100e Versions 03.03.28C to 05.02.04C, EX2100e All versions prior to v04.09.00C, EX2100e_Reg All versions prior to v04.09.00C, and LS2100e All versions prior to v04.09.00C The affected versions of the application have a path traversal vulnerability that fails to restrict the ability of an attacker to gain access to restricted information.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19007" target="_blank" rel="noopener">CVE-2018-19007</a><br>In Geutebrueck GmbH E2 Camera Series versions prior to 1.12.0.25 the DDNS configuration (in the Network Configuration panel) is vulnerable to an OS system command injection as root.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19413" target="_blank" rel="noopener">CVE-2018-19413</a><br>A vulnerability in the API of SonarSource SonarQube before 7.4 could allow an authenticated user to discover sensitive information such as valid user-account logins in the web application. The vulnerability occurs because of improperly configured access controls that cause the API to return the externalIdentity field to non-administrator users. The attacker could use this information in subsequent attacks against the system.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20147" target="_blank" rel="noopener">CVE-2018-20147</a><br>In WordPress before 4.9.9 and 5.x before 5.0.1, authors could modify metadata to bypass intended restrictions on deleting files.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20148" target="_blank" rel="noopener">CVE-2018-20148</a><br>In WordPress before 4.9.9 and 5.x before 5.0.1, contributors could conduct PHP object injection attacks via crafted metadata in a wp.getMediaItem XMLRPC call. This is caused by mishandling of serialized data at phar:// URLs in the wp_get_attachment_thumb_file function in wp-includes/post.php.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20149" target="_blank" rel="noopener">CVE-2018-20149</a><br>In WordPress before 4.9.9 and 5.x before 5.0.1, when the Apache HTTP Server is used, authors could upload crafted files that bypass intended MIME type restrictions, leading to XSS, as demonstrated by a .jpg file without JPEG data.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20150" target="_blank" rel="noopener">CVE-2018-20150</a><br>In WordPress before 4.9.9 and 5.x before 5.0.1, crafted URLs could trigger XSS for certain use cases involving plugins.</p>
+
+
+<!--<a href="http://yoursite.com/2019/01/07/2018-12-14/#disqus_thread" class="article-comment-link">Comments</a>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = ''; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
+<div style="display:none">
+<script src="http://s4.cnzz.com/stat.php?id=&web_id=" language="JavaScript"></script>script>
+</div>
+
+
+
+
+
+
+</body>
+</html>

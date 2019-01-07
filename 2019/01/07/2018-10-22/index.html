@@ -1,0 +1,74 @@
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+	
+	<title>2018.10.22</title>
+	<meta name="keywords" content="">
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    
+	   <link href="/css/main.css?v=3" rel="stylesheet" type="text/css">
+    
+        <script src="/js/util.js"></script>
+        <script>
+            if(isMobile()) {
+                loadjscssfile('../css/mobile.css', 'css');
+            } else {
+                loadjscssfile('../css/desktop.css', 'css');
+            }
+        </script> 
+    
+
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+
+    
+
+</head>
+
+<body>
+
+
+<h2 class="title">2018.10.22</h2>
+<!---
+<div style="text-align:center;margin-top: -10px;">
+<div class="article-category">
+发表于2019年1月7日
+
+
+
+
+ </div>
+--->
+
+
+
+<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18557" target="_blank" rel="noopener">CVE-2018-18557</a><br>LibTIFF 4.0.9 (with JBIG enabled) decodes arbitrarily-sized JBIG into a buffer, ignoring the buffer size, which leads to a tif_jbig.c JBIGDecode out-of-bounds write.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18559" target="_blank" rel="noopener">CVE-2018-18559</a><br>In the Linux kernel through 4.19, a use-after-free can occur due to a race condition between fanout_add from setsockopt and bind on an AF_PACKET socket. This issue exists because of the 15fe076edea787807a7cdc168df832544b58eba6 incomplete fix for a race condition. The code mishandles a certain multithreaded case involving a packet_do_bind unregister action followed by a packet_notifier register action. Later, packet_release operates on only one of the two applicable linked lists. The attacker can achieve Program Counter control.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18578" target="_blank" rel="noopener">CVE-2018-18578</a><br>DedeCMS 5.7 SP2 allows XSS via the plus/qrcode.php type parameter.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18579" target="_blank" rel="noopener">CVE-2018-18579</a><br>Reflected XSS exists in DedeCMS 5.7 SP2 via the /member/pm.php folder parameter.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18581" target="_blank" rel="noopener">CVE-2018-18581</a><br>An issue has been found in LuPng through 2017-03-10. It is a heap-based buffer over-read in internalPrintf in miniz/lupng.c.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18582" target="_blank" rel="noopener">CVE-2018-18582</a><br>An issue has been found in LuPng through 2017-03-10. It is a heap-based buffer overflow in insertByte in miniz/lupng.c during a write operation for data obtained from a palette.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18583" target="_blank" rel="noopener">CVE-2018-18583</a><br>An issue has been found in LuPng through 2017-03-10. It is a heap-based buffer overflow in insertByte in miniz/lupng.c during a write operation for data obtained from a swap.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18584" target="_blank" rel="noopener">CVE-2018-18584</a><br>In mspack/cab.h in libmspack before 0.8alpha and cabextract before 1.8, the CAB block input buffer is one byte too small for the maximal Quantum block, leading to an out-of-bounds write.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18585" target="_blank" rel="noopener">CVE-2018-18585</a><br>chmd_read_headers in mspack/chmd.c in libmspack before 0.8alpha accepts a filename that has ‘\0’ as its first or second character (such as the “/\0” name).<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18586" target="_blank" rel="noopener">CVE-2018-18586</a><br><strong> DISPUTED </strong> chmextract.c in the chmextract sample program, as distributed with libmspack before 0.8alpha, does not protect against absolute/relative pathnames in CHM files, leading to Directory Traversal. NOTE: the vendor disputes that this is a libmspack vulnerability, because chmextract.c was only intended as a source-code example, not a supported application.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-12246" target="_blank" rel="noopener">CVE-2018-12246</a><br>Symantec Web Isolation (WI) 1.11 prior to 1.11.21 is susceptible to a reflected cross-site scripting (XSS) vulnerability. A remote attacker can target end users protected by WI with social engineering attacks using crafted URLs for legitimate web sites. A successful attack allows injecting malicious JavaScript code into the website’s rendered copy running inside the end user’s web browser. It does not allow injecting code into the real (isolated) copy of the website running on the WI Threat Isolation Engine.</p>
+
+
+<!--<a href="http://yoursite.com/2019/01/07/2018-10-22/#disqus_thread" class="article-comment-link">Comments</a>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = ''; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
+<div style="display:none">
+<script src="http://s4.cnzz.com/stat.php?id=&web_id=" language="JavaScript"></script>script>
+</div>
+
+
+
+
+
+
+</body>
+</html>
