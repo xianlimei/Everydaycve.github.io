@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cve.justshuoz.com/"/>
-  <updated>2019-01-20T02:42:33.544Z</updated>
+  <updated>2019-01-21T12:51:48.090Z</updated>
   <id>http://cve.justshuoz.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019.01.20</title>
+    <link href="http://cve.justshuoz.com/2019/01/21/2019-01-20/"/>
+    <id>http://cve.justshuoz.com/2019/01/21/2019-01-20/</id>
+    <published>2019-01-21T12:51:48.093Z</published>
+    <updated>2019-01-21T12:51:48.090Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18908" target="_blank" rel="noopener">CVE-2018-18908</a><br>The Sky Go Desktop application 1.0.19-1 through 1.0.23-1 for Windows performs several requests over cleartext HTTP. This makes the data submitted in these requests prone to Man in The Middle (MiTM) attacks, whereby an attacker would be able to obtain the data sent in these requests. Some of the requests contain potentially sensitive information that could be useful to an attacker, such as the victim’s Sky username.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6496" target="_blank" rel="noopener">CVE-2019-6496</a><br>The ThreadX-based firmware on Marvell Avastar Wi-Fi devices allows remote attackers to execute arbitrary code or cause a denial of service (block pool overflow) via malformed Wi-Fi packets during identification of available Wi-Fi networks. Exploitation of the Wi-Fi device can lead to exploitation of the host application processor in some cases, but this depends on several factors including host OS hardening and the availability of DMA.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6497" target="_blank" rel="noopener">CVE-2019-6497</a><br>Hotels_Server through 2018-11-05 has SQL Injection via the controller/fetchpwd.php username parameter.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18908&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CVE-2018-18908&lt;/a&gt;&lt;br&gt;The Sky Go D
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019.01.18</title>
@@ -408,27 +429,6 @@
       
       
         &lt;p&gt;&lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7366&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CVE-2018-7366&lt;/a&gt;&lt;br&gt;ZTE ZXV10 B860
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2018.12.27</title>
-    <link href="http://cve.justshuoz.com/2019/01/07/2018-12-27/"/>
-    <id>http://cve.justshuoz.com/2019/01/07/2018-12-27/</id>
-    <published>2019-01-07T15:27:44.390Z</published>
-    <updated>2019-01-07T13:44:59.019Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20508" target="_blank" rel="noopener">CVE-2018-20508</a><br>CrashFix 1.0.4 has SQL Injection via the User[status] parameter. This is related to actionIndex in UserController.php, and the protected\models\User.php search() function.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20511" target="_blank" rel="noopener">CVE-2018-20511</a><br>An issue was discovered in the Linux kernel before 4.18.11. The ipddp_ioctl function in drivers/net/appletalk/ipddp.c allows local users to obtain sensitive kernel address information by leveraging CAP_NET_ADMIN to read the ipddp_route dev and next fields via an SIOCFINDIPDDPRT ioctl call.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20519" target="_blank" rel="noopener">CVE-2018-20519</a><br>An issue was discovered in 74cms v4.2.111. It allows remote authenticated users to read or modify arbitrary resumes by changing a job-search intention, as demonstrated by the index.php?c=Personal&amp;a=ajax_save_basic pid parameter.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20520" target="_blank" rel="noopener">CVE-2018-20520</a><br>MiniCMS V1.10 has XSS via the mc-admin/post-edit.php query string, a related issue to CVE-2018-10296 and CVE-2018-16233.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20524" target="_blank" rel="noopener">CVE-2018-20524</a><br>The Chat Anywhere extension 2.4.0 for Chrome allows XSS via crafted use of &lt;<a> in a message, because a danmuWrapper DIV element in chatbox-only\danmu.js is outside the scope of a Content Security Policy (CSP).</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20508&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CVE-2018-20508&lt;/a&gt;&lt;br&gt;CrashFix 1.0
       
     
     </summary>
