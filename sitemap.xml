@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://cve.justshuoz.com/2019/01/22/2019-01-21/</loc>
+    
+    <lastmod>2019-01-22T13:41:52.729Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://cve.justshuoz.com/2019/01/21/2019-01-20/</loc>
     
     <lastmod>2019-01-21T12:51:48.090Z</lastmod>
