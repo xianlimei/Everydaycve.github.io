@@ -1,0 +1,74 @@
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+	
+	<title>2019.02.06</title>
+	<meta name="keywords" content="">
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    
+	   <link href="/css/main.css?v=3" rel="stylesheet" type="text/css">
+    
+        <script src="/js/util.js"></script>
+        <script>
+            if(isMobile()) {
+                loadjscssfile('../css/mobile.css', 'css');
+            } else {
+                loadjscssfile('../css/desktop.css', 'css');
+            }
+        </script> 
+    
+
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+
+    
+
+</head>
+
+<body>
+
+
+<h2 class="title">2019.02.06</h2>
+<!---
+<div style="text-align:center;margin-top: -10px;">
+<div class="article-category">
+发表于2019年4月10日
+
+
+
+
+ </div>
+--->
+
+
+
+<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16890" target="_blank" rel="noopener">CVE-2018-16890</a><br>libcurl versions from 7.36.0 to before 7.64.0 is vulnerable to a heap buffer out-of-bounds read. The function handling incoming NTLM type-2 messages (<code>lib/vauth/ntlm.c:ntlm_decode_type2_target</code>) does not validate incoming data correctly and is subject to an integer overflow vulnerability. Using that overflow, a malicious or broken NTLM server could trick libcurl to accept a bad length + offset combination that would lead to a buffer read out-of-bounds.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20760" target="_blank" rel="noopener">CVE-2018-20760</a><br>In GPAC 0.7.1 and earlier, gf_text_get_utf8_line in media_tools/text_import.c in libgpac_static.a allows an out-of-bounds write because a certain -1 return value is mishandled.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20761" target="_blank" rel="noopener">CVE-2018-20761</a><br>GPAC version 0.7.1 and earlier has a Buffer Overflow vulnerability in the gf_sm_load_init function in scene_manager.c in libgpac_static.a.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20762" target="_blank" rel="noopener">CVE-2018-20762</a><br>GPAC version 0.7.1 and earlier has a buffer overflow vulnerability in the cat_multiple_files function in applications/mp4box/fileimport.c when MP4Box is used for a local directory containing crafted filenames.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20763" target="_blank" rel="noopener">CVE-2018-20763</a><br>In GPAC 0.7.1 and earlier, gf_text_get_utf8_line in media_tools/text_import.c in libgpac_static.a allows an out-of-bounds write because of missing szLineConv bounds checking.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7817" target="_blank" rel="noopener">CVE-2018-7817</a><br>A Use After Free (CWE-416) vulnerability exists in Zelio Soft 2 v5.1 and prior versions which could cause remote code execution when opening a specially crafted Zelio Soft project file.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-3822" target="_blank" rel="noopener">CVE-2019-3822</a><br>libcurl versions from 7.36.0 to before 7.64.0 are vulnerable to a stack-based buffer overflow. The function creating an outgoing NTLM type-3 header (<code>lib/vauth/ntlm.c:Curl_auth_create_ntlm_type3_message()</code>), generates the request HTTP header contents based on previously received data. The check that exists to prevent the local buffer from getting overflowed is implemented wrongly (using unsigned math) and as such it does not prevent the overflow from happening. This output data can grow larger than the local buffer if very large ‘nt response’ data is extracted from a previous NTLMv2 header provided by the malicious or broken HTTP server. Such a ‘large value’ needs to be around 1000 bytes or more. The actual payload data copied to the target buffer comes from the NTLMv2 type-2 response header.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-3823" target="_blank" rel="noopener">CVE-2019-3823</a><br>libcurl versions from 7.34.0 to before 7.64.0 are vulnerable to a heap out-of-bounds read in the code handling the end-of-response for SMTP. If the buffer passed to <code>smtp_endofresp()</code> isn’t NUL terminated and contains no character ending the parsed number, and <code>len</code> is set to 5, then the <code>strtol()</code> call reads beyond the allocated buffer. The read contents will not be returned to the caller.</p>
+
+
+<!--<a href="http://cve.justshuoz.com/2019/04/10/2019-02-06/#disqus_thread" class="article-comment-link">Comments</a>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = ''; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
+<div style="display:none">
+<script src="http://s4.cnzz.com/stat.php?id=&web_id=" language="JavaScript"></script>script>
+</div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+	
+	<title>2019.02.27</title>
+	<meta name="keywords" content="">
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    
+	   <link href="/css/main.css?v=3" rel="stylesheet" type="text/css">
+    
+        <script src="/js/util.js"></script>
+        <script>
+            if(isMobile()) {
+                loadjscssfile('../css/mobile.css', 'css');
+            } else {
+                loadjscssfile('../css/desktop.css', 'css');
+            }
+        </script> 
+    
+
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+
+    
+
+</head>
+
+<body>
+
+
+<h2 class="title">2019.02.27</h2>
+<!---
+<div style="text-align:center;margin-top: -10px;">
+<div class="article-category">
+发表于2019年4月10日
+
+
+
+
+ </div>
+--->
+
+
+
+<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1559" target="_blank" rel="noopener">CVE-2019-1559</a><br>If an application encounters a fatal protocol error and then calls SSL_shutdown() twice (once to send a close_notify, and once to receive one) then OpenSSL can respond differently to the calling application if a 0 byte record is received with invalid padding compared to if a 0 byte record is received with an invalid MAC. If the application then behaves differently based on that in a way that is detectable to the remote peer, then this amounts to a padding oracle that could be used to decrypt data. In order for this to be exploitable “non-stitched” ciphersuites must be in use. Stitched ciphersuites are optimised implementations of certain commonly used ciphersuites. Also the application must call SSL_shutdown() twice even if a protocol error has occurred (applications should not do this but some do anyway). Fixed in OpenSSL 1.0.2r (Affected 1.0.2-1.0.2q).<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9208" target="_blank" rel="noopener">CVE-2019-9208</a><br>In Wireshark 2.4.0 to 2.4.12 and 2.6.0 to 2.6.6, the TCAP dissector could crash. This was addressed in epan/dissectors/asn1/tcap/tcap.cnf by avoiding NULL pointer dereferences.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9209" target="_blank" rel="noopener">CVE-2019-9209</a><br>In Wireshark 2.4.0 to 2.4.12 and 2.6.0 to 2.6.6, the ASN.1 BER and related dissectors could crash. This was addressed in epan/dissectors/packet-ber.c by preventing a buffer overflow associated with excessive digits in time values.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9210" target="_blank" rel="noopener">CVE-2019-9210</a><br>In AdvanceCOMP 2.1, png_compress in pngex.cc in advpng has an integer overflow upon encountering an invalid PNG size, which results in an attempted memcpy to write into a buffer that is too small. (There is also a heap-based buffer over-read.)<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9211" target="_blank" rel="noopener">CVE-2019-9211</a><br>There is a reachable assertion abort in the function write_long_string_missing_values() in data/sys-file-writer.c in libdata.a in GNU PSPP 1.2.0 that will lead to denial of service.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9214" target="_blank" rel="noopener">CVE-2019-9214</a><br>In Wireshark 2.4.0 to 2.4.12 and 2.6.0 to 2.6.6, the RPCAP dissector could crash. This was addressed in epan/dissectors/packet-rpcap.c by avoiding an attempted dereference of a NULL conversation.</p>
+
+
+<!--<a href="http://cve.justshuoz.com/2019/04/10/2019-02-27/#disqus_thread" class="article-comment-link">Comments</a>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = ''; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
+<div style="display:none">
+<script src="http://s4.cnzz.com/stat.php?id=&web_id=" language="JavaScript"></script>script>
+</div>
+
+
+
+
+
+
+</body>
+</html>
