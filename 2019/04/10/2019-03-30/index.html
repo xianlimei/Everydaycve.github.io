@@ -1,0 +1,74 @@
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+	
+	<title>2019.03.30</title>
+	<meta name="keywords" content="">
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    
+	   <link href="/css/main.css?v=3" rel="stylesheet" type="text/css">
+    
+        <script src="/js/util.js"></script>
+        <script>
+            if(isMobile()) {
+                loadjscssfile('../css/mobile.css', 'css');
+            } else {
+                loadjscssfile('../css/desktop.css', 'css');
+            }
+        </script> 
+    
+
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+
+    
+
+</head>
+
+<body>
+
+
+<h2 class="title">2019.03.30</h2>
+<!---
+<div style="text-align:center;margin-top: -10px;">
+<div class="article-category">
+发表于2019年4月10日
+
+
+
+
+ </div>
+--->
+
+
+
+<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10647" target="_blank" rel="noopener">CVE-2019-10647</a><br>ZZZCMS zzzphp v1.6.3 allows remote attackers to execute arbitrary PHP code via a .php URL in the plugins/ueditor/php/controller.php?action=catchimage source[] parameter because of a lack of inc/zzz_file.php restrictions. For example, source%5B%5D=http%3A%2F%2F192.168.0.1%2Ftest.php can be used if the 192.168.0.1 web server sends the contents of a .php file (i.e., it does not interpret a .php file).<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10648" target="_blank" rel="noopener">CVE-2019-10648</a><br>Robocode through 1.9.3.5 allows remote attackers to cause external service interaction (DNS), as demonstrated by a query for a unique subdomain name within an attacker-controlled DNS zone, because of a .openStream call within java.net.URL.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10649" target="_blank" rel="noopener">CVE-2019-10649</a><br>In ImageMagick 7.0.8-36 Q16, there is a memory leak in the function SVGKeyValuePairs of coders/svg.c, which allows an attacker to cause a denial of service via a crafted image file.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10650" target="_blank" rel="noopener">CVE-2019-10650</a><br>In ImageMagick 7.0.8-36 Q16, there is a heap-based buffer over-read in the function WriteTIFFImage of coders/tiff.c, which allows an attacker to cause a denial of service or information disclosure via a crafted image file.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10652" target="_blank" rel="noopener">CVE-2019-10652</a><br>An issue was discovered in flatCore 1.4.7. acp/acp.php allows remote authenticated administrators to upload arbitrary .php files, related to the addons feature.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10654" target="_blank" rel="noopener">CVE-2019-10654</a><br>The lzo1x_decompress function in liblzo2.so.2 in LZO 2.10, as used in Long Range Zip (aka lrzip) 0.631, allows remote attackers to cause a denial of service (invalid memory read and application crash) via a crafted archive, a different vulnerability than CVE-2017-8845.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10655" target="_blank" rel="noopener">CVE-2019-10655</a><br>Grandstream GAC2500 1.0.3.35, GXP2200 1.0.3.27, GVC3202 1.0.3.51, GXV3275 before 1.0.3.219 Beta, and GXV3240 before 1.0.3.219 Beta devices allow unauthenticated remote code execution via shell metacharacters in a /manager?action=getlogcat priority field, in conjunction with a buffer overflow (via the phonecookie cookie) to overwrite a data structure and consequently bypass authentication. This can be exploited remotely or via CSRF because the cookie can be placed in an Accept HTTP header in an XMLHttpRequest call to lighttpd.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10656" target="_blank" rel="noopener">CVE-2019-10656</a><br>Grandstream GWN7000 before 1.0.6.32 devices allow remote authenticated users to execute arbitrary code via shell metacharacters in the filename in a /ubus/uci.apply update_nds_webroot_from_tmp API call.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10657" target="_blank" rel="noopener">CVE-2019-10657</a><br>Grandstream GWN7000 before 1.0.6.32 and GWN7610 before 1.0.8.18 devices allow remote authenticated users to discover passwords via a /ubus/uci.apply config request.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10658" target="_blank" rel="noopener">CVE-2019-10658</a><br>Grandstream GWN7610 before 1.0.8.18 devices allow remote authenticated users to execute arbitrary code via shell metacharacters in the filename in a /ubus/controller.icc.update_nds_webroot_from_tmp update_nds_webroot_from_tmp API call.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10659" target="_blank" rel="noopener">CVE-2019-10659</a><br>Grandstream GXV3370 before 1.0.1.41 and WP820 before 1.0.3.6 devices allow remote authenticated users to execute arbitrary code via shell metacharacters in a /manager?action=getlogcat priority field.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10660" target="_blank" rel="noopener">CVE-2019-10660</a><br>Grandstream GXV3611IR_HD before 1.0.3.23 devices allow remote authenticated users to execute arbitrary code via shell metacharacters in the /goform/systemlog?cmd=set logserver field.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10661" target="_blank" rel="noopener">CVE-2019-10661</a><br>On Grandstream GXV3611IR_HD before 1.0.3.23 devices, the root account lacks a password.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10662" target="_blank" rel="noopener">CVE-2019-10662</a><br>Grandstream UCM6204 before 1.0.19.20 devices allow remote authenticated users to execute arbitrary code via shell metacharacters in the backupUCMConfig file-backup parameter to the /cgi? URI.<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10663" target="_blank" rel="noopener">CVE-2019-10663</a><br>Grandstream UCM6204 before 1.0.19.20 devices allow remote authenticated users to conduct SQL injection attacks via the sord parameter in a listCodeblueGroup API call to the /cgi? URI.</p>
+
+
+<!--<a href="http://cve.justshuoz.com/2019/04/10/2019-03-30/#disqus_thread" class="article-comment-link">Comments</a>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = ''; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
+<div style="display:none">
+<script src="http://s4.cnzz.com/stat.php?id=&web_id=" language="JavaScript"></script>script>
+</div>
+
+
+
+
+
+
+</body>
+</html>
